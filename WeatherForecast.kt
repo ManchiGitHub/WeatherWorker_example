@@ -6,13 +6,8 @@ import androidx.work.Constraints
 import androidx.work.NetworkType
 import androidx.work.OneTimeWorkRequestBuilder
 import androidx.work.WorkManager
-import com.es.careapp.data.repository.Weather
 import com.google.gson.Gson
 
-/**
- * Created by Marko on 12/21/2021.
- * Etrog Systems LTD.
- */
 class WeatherForecast {
 
     fun interface WeatherCallback {
